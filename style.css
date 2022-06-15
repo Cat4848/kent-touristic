@@ -1,0 +1,50 @@
+/* a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+*/
+nav {
+    display:flex;
+    background-color: rgb(216, 216, 216);
+    margin: 0;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch:extra-expanded;
+    word-spacing: 10px;
+
+    
+}
+
+a {
+    display: inline;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1.8px;
+    line-height: 2em;
+    
+    
+}
+a:hover {
+    background-color: rgb(84, 248, 147);
+    cursor: pointer;
+    transition: 500ms;
+}
+
+a:active {
+    background-color: aqua;
+}
+
+a:focus {
+    background-color: rgb(84, 248, 147);
+
+}
+
+.home {
+    background-color: rgb(163, 163, 163);
+    
+}
+
