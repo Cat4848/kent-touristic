@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(214, 236, 255);
+    
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 28px;
+}

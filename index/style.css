@@ -13,6 +13,7 @@ nav {
     font-weight: bold;
     font-stretch:extra-expanded;
     word-spacing: 10px;
+    
 
     
 }
@@ -29,22 +30,26 @@ a {
     
 }
 a:hover {
-    background-color: rgb(84, 248, 147);
+    background-color: rgb(140, 194, 170);
     cursor: pointer;
     transition: 500ms;
 }
 
-a:active {
-    background-color: aqua;
-}
 
 a:focus {
-    background-color: rgb(84, 248, 147);
+    background-color: rgb(140, 194, 170);
 
 }
 
 .home {
     background-color: rgb(163, 163, 163);
     
+}
+
+
+
+body {
+    background-color: rgb(235, 235, 235);
+    margin: 0;
 }
 
